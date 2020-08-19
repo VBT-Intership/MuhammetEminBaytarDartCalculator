@@ -17,10 +17,10 @@ main(List<String> args) {
   } else if (islem == '-') {
     sonuc = (n1 - n2).toDouble();
     print("Sonuç :$sonuc");
-  } else if (islem == 'x') {
+  } else if (islem == '*') {
     sonuc = (n1 * n2).toDouble();
     print("Sonuç :$sonuc");
-  } else if (islem == '*') {
+  } else if (islem == '/') {
     sonuc = n1 / n2;
     print("Sonuç :$sonuc");
   } else {
